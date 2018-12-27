@@ -1,3 +1,15 @@
+p, a, h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif; }
+
+h1 {
+  font-size: 80px; }
+
+h2 {
+  font-size: 54px; }
+
+h3 {
+  font-size: 30px; }
+
 *,
 *::before,
 *::after {
@@ -11,20 +23,13 @@ body {
   height: 100vh;
   overflow-x: hidden; }
 
-p, a, h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif; }
-
-h1 {
-  font-size: 80px; }
-
-h2 {
-  font-size: 54px; }
-
-h3 {
-  font-size: 30px; }
-
 button {
   background: #00838E; }
+
+.col p {
+  text-align: left; }
+.col img {
+  height: 120px; }
 
 .container--hero {
   background: url("../imgs/header1.png");
@@ -64,10 +69,5 @@ button {
 
 .container--coc .row .m3 {
   margin: 0 auto; }
-
-.col p {
-  text-align: left; }
-.col img {
-  height: 120px; }
 
 /*# sourceMappingURL=master.css.map */

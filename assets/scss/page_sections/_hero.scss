@@ -1,0 +1,17 @@
+.container--hero {
+  background: url("../imgs/header1.png");
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .hero--text {
+    width: 75%;
+    color: white;
+    text-shadow: 0px 2px 8px rgba(0,0,0,.5);
+    a {
+      text-shadow: none;
+    }
+  }
+}
