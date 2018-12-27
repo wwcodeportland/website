@@ -14,6 +14,7 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100vh;
+  overflow-x: hidden; 
 }
 
 p, a, h1, h2, h3, h4, h5, h6 {
@@ -34,44 +35,18 @@ h3 {
 
 button {
   background: $teal;
-  padding: 1.6em;
-  border-radius: 0;
-  border: 0;
-  a {
-    color: white;
-
-  }
 }
-
 
 
 
 // //////////////////////////////////
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  a {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: white;
-    opacity: .87;
-    padding: 12px;
-    letter-spacing: 1.5;
-  }
-}
 
 .container--hero {
-  background: url("imgs/header1.png");
+  background: url("../imgs/header1.png");
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
-  position: relative;
-  top: -100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,12 +54,52 @@ nav {
     width: 75%;
     color: white;
     text-shadow: 0px 2px 8px rgba(0,0,0,.5);
+    a {
+      text-shadow: none;
+    }
+  }
+}
+
+.container--about {
+  padding-top: 3em;
+  h3, h1, p {
+    text-align: center;
+  }
+  h3 {
+    font-style: italic;
+  }
+  a {
+    text-align: left;
+  }
+  .row {
+    display: flex;    
+    justify-content: space-between;
   }
 }
 
 .container--spacer {
-  background: url("imgs/middle1.png");
+  background: url("../imgs/middle1.png");
   background-size: cover;
-  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;  
+  height: 50vh;
   width: 100%;
+  margin: 3em 0;
+}
+
+.container--coc {
+  .row {
+    .m3 {
+      margin: 0 auto;
+    }
+  }
+}
+
+.col {
+  p {
+    text-align: left;
+  }
+  img {
+    height: 120px;
+  }
 }
