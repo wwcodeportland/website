@@ -6,6 +6,20 @@
   box-sizing: border-box;
 }
 
+nav {
+  .nav-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .brand-logo {
+    top: 10px;
+    img {
+      height: 1.5em;
+    }
+  }
+}
+
+
 body {
   margin: 0px;
   padding: 0px;
@@ -15,4 +29,23 @@ body {
 
 button {
   background: $teal;
+}
+
+.container {
+  padding-top: 3em;
+  h3, h1 {
+    text-align: center;
+  }
+  a {
+    text-align: left;
+  }
+  .row {
+    padding: 3em 0;
+    .col {
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
 }

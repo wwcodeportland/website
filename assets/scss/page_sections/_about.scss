@@ -1,16 +1,39 @@
 .container--about {
-  padding-top: 3em;
-  h3, h1, p {
-    text-align: center;
+  h1, h3, h5 {
+    color: $teal;
+  }
+  h1 {
+    -webkit-text-stroke: 2px $teal;
+   color: white;
+   text-shadow:
+       2px 2px 0 $teal,
+     -2px -2px 0 $teal,
+      2px -2px 0 $teal,
+      -2px 2px 0 $teal,
+       2px 2px 0 $teal;
   }
   h3 {
     font-style: italic;
   }
-  a {
-    text-align: left;
+  p, h5 {
+    text-align: center;
   }
-  .row {
+  .row:first-of-type {
     display: flex;
     justify-content: space-between;
+    .col:first-of-type {
+      margin-left: 0;
+    }
+    .col {
+      h4 {
+        text-align: center;
+        color: $teal;
+      }
+    }
+  }
+  .row:last-of-type {
+    p {
+      text-align: left;
+    }
   }
 }
