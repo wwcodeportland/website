@@ -68,12 +68,16 @@ footer {
 
 .container--hero {
   background: url("../imgs/header2.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
+  height: 125vh;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  z-index: 0;
+  position: relative;
+  top: -20px; }
   .container--hero .hero--text {
     width: 75%;
     color: white;
@@ -81,35 +85,33 @@ footer {
     .container--hero .hero--text a {
       text-shadow: none; }
 
-.container--about h1, .container--about h5 {
-  color: #00838E; }
-.container--about h1 {
-  -webkit-text-stroke: 2px #00838E;
-  color: white;
-  text-shadow: 2px 2px 0 #00838E, -2px -2px 0 #00838E, 2px -2px 0 #00838E, -2px 2px 0 #00838E, 2px 2px 0 #00838E; }
-.container--about p, .container--about h5 {
-  text-align: center; }
-.container--about .row:first-of-type {
-  display: flex;
-  justify-content: space-between; }
-  .container--about .row:first-of-type .col:first-of-type {
-    margin-left: 0; }
-  .container--about .row:first-of-type .col h3 {
-    font-style: italic;
-    color: black; }
-.container--about .row:last-of-type p {
-  text-align: left; }
-.container--about .row:last-of-type a {
-  font-size: 1.2em; }
+.container--about {
+  z-index: 5;
+  position: relative;
+  top: -200px; }
+  .container--about h1, .container--about h5 {
+    color: #00838E; }
+  .container--about h1 {
+    -webkit-text-stroke: 2px #00838E;
+    color: white;
+    text-shadow: 2px 2px 0 #00838E, -2px -2px 0 #00838E, 2px -2px 0 #00838E, -2px 2px 0 #00838E, 2px 2px 0 #00838E; }
+  .container--about p, .container--about h5 {
+    text-align: center; }
+  .container--about .row:first-of-type {
+    display: flex;
+    justify-content: space-between; }
+    .container--about .row:first-of-type .col:first-of-type {
+      margin-left: 0; }
+    .container--about .row:first-of-type .col h3 {
+      font-style: italic;
+      color: black; }
+  .container--about .row:last-of-type p {
+    text-align: left; }
+  .container--about .row:last-of-type a {
+    font-size: 1.2em; }
 
-.container--spacer {
-  background: url("../imgs/middle2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 60vh;
-  width: 100%;
-  margin: 3em 0; }
+.parallax-container .parallax {
+  height: 400px; }
 
 .container--coc {
   margin-bottom: 40px; }

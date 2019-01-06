@@ -1,9 +1,18 @@
-.container--spacer {
-  background: url("../imgs/middle2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 60vh;
-  width: 100%;
-  margin: 3em 0;
+// .container--spacer {
+//   background: url("../imgs/header3.png");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: right;
+//   height: 100vh;
+//   width: 100%;
+//   // margin: 3em 0;
+//   position: relative;
+//   top: -200px;
+//   z-index: 1;
+// }
+
+.parallax-container {
+  .parallax {
+    height: 400px;
+  }
 }
