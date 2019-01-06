@@ -55,6 +55,12 @@ button {
       display: block;
       margin: 0 auto; }
 
+footer {
+  background: #00838E;
+  padding: 20px; }
+  footer a {
+    color: white; }
+
 .col p {
   text-align: left; }
 .col img {
@@ -105,30 +111,41 @@ button {
   width: 100%;
   margin: 3em 0; }
 
-.container--coc h1 {
-  -webkit-text-stroke: 2px #00838E;
-  color: white;
-  text-shadow: 2px 2px 0 #00838E, -2px -2px 0 #00838E, 2px -2px 0 #00838E, -2px 2px 0 #00838E, 2px 2px 0 #00838E; }
-.container--coc h3 {
-  font-style: italic; }
-.container--coc .row .col img {
-  height: 120px; }
-.container--coc .row .col p {
-  text-align: center; }
-.container--coc .coc--touchpoint {
-  display: flex;
-  justify-content: flex-start;
-  margin: 0 auto;
-  width: 75%;
-  margin-bottom: 1.5em; }
-  .container--coc .coc--touchpoint h2 {
-    margin: 0;
-    padding-right: 1em; }
-  .container--coc .coc--touchpoint p {
-    margin-top: 0; }
-.container--coc ul {
-  margin: 0 2em; }
-  .container--coc ul li {
-    list-style-type: circle; }
+.container--coc {
+  margin-bottom: 40px; }
+  .container--coc h1 {
+    -webkit-text-stroke: 2px #00838E;
+    color: white;
+    text-shadow: 2px 2px 0 #00838E, -2px -2px 0 #00838E, 2px -2px 0 #00838E, -2px 2px 0 #00838E, 2px 2px 0 #00838E; }
+  .container--coc h3 {
+    font-style: italic; }
+  .container--coc h5 {
+    width: 80%;
+    margin: 2vh auto 4vh;
+    line-height: 1.5em; }
+  .container--coc .row .col img {
+    height: 120px; }
+  .container--coc .row .col p {
+    text-align: center; }
+  .container--coc .coc--touchpoint {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 1.5em; }
+    .container--coc .coc--touchpoint h2 {
+      margin: 0;
+      padding-right: 1em;
+      color: #00838E; }
+    .container--coc .coc--touchpoint p {
+      margin-top: 0; }
+  .container--coc .collapsible .collapsible-body b {
+    font-size: 1.2em; }
+  .container--coc .collapsible .collapsible-body p {
+    margin-bottom: 20px; }
+  .container--coc .collapsible ul {
+    margin: 0 2em; }
+    .container--coc .collapsible ul li {
+      list-style-type: circle; }
 
 /*# sourceMappingURL=master.css.map */
