@@ -12,5 +12,14 @@ h2 {
 
 h3 {
   font-size: 30px;
-  color: $teal;
+  // color: $teal;
+}
+
+a {
+   font-style: italic;
+ }
+a:hover {
+  // font-style: italic;
+  text-decoration: underline;
+
 }

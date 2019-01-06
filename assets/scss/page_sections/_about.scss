@@ -1,5 +1,5 @@
 .container--about {
-  h1, h3, h5 {
+  h1, h5 {
     color: $teal;
   }
   h1 {
@@ -12,9 +12,6 @@
       -2px 2px 0 $teal,
        2px 2px 0 $teal;
   }
-  h3 {
-    font-style: italic;
-  }
   p, h5 {
     text-align: center;
   }
@@ -25,15 +22,18 @@
       margin-left: 0;
     }
     .col {
-      h4 {
-        text-align: center;
-        color: $teal;
+      h3 {
+        font-style: italic;
+        color: black;
       }
     }
   }
   .row:last-of-type {
     p {
       text-align: left;
+    }
+    a {
+      font-size: 1.2em;
     }
   }
 }

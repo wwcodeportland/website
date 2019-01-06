@@ -10,6 +10,10 @@ nav {
   .nav-wrapper {
     width: 90%;
     margin: 0 auto;
+    a {
+      font-style: normal;
+      text-transform: uppercase;
+    }
   }
   .brand-logo {
     top: 10px;
